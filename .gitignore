@@ -1,0 +1,62 @@
+# Directorios y archivos generados automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.bak
+
+# Entornos virtuales (puedes personalizar esta línea según el nombre de tu entorno virtual)
+venv/
+.venv/
+
+# Dependencias y módulos de terceros (esto evitará incluir todo el entorno virtual)
+lib/
+lib64/
+bin/
+include/
+share/
+*.egg-info/
+dist/
+build/
+*.egg
+*.eggs
+*.egg-info
+__pycache__/
+.pytest_cache/
+
+# Archivos de configuración locales
+*.swp
+*.swo
+*~
+
+# Archivos de registro de pruebas y cobertura
+.coverage
+.tox
+
+# Carpeta generada por el IDE PyCharm
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivo de registro Jupyter
+*.log
+
+# Documentación generada automáticamente
+docs/_build/
+
+# Archivos de configuración de sistema
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Archivos de configuración específicos de sistema operativo (Linux, macOS, Windows)
+*~
+*~
+Desktop.ini
+.DS_Store?
+Thumbs.db
+ehthumbs.db
